@@ -1,6 +1,7 @@
-import java.util.Arrays;
+import java.util.ArrayList;
 
 class Solution3 {
+
     public int solution(int[] ingredient) {
         int answer = 0;
         int i = 0; // initial
