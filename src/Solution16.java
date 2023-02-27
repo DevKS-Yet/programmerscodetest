@@ -7,6 +7,10 @@ class Solution16 {
         return answer;
     }
 
+    /**
+     * heap memory out으로 철회
+     * @return reverted num_list
+     */
     private int[] reverse(int[] num_list) {
         int[] result = new int[num_list.length];
         for (int i=0; i<num_list.length; i++) {
